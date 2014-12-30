@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BMI    Calculator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="height">Height: </string>
+    <string name="weight">Weight: </string>
+    <string name="calculate">Calculate</string>
+    <string name="reset">Reset</string>
+    
+    <string name="txtKG">[KG]</string>
+    <string name="txtCM">[CM]</string>
+    <string name="txtFT">[FT]</string>
+    <string name="txtIN">[IN]</string>
+    <string name="txtLBS">[LBS]</string>
+    <string name="stones">Stones:</string>
+    <string name="pounds">Pounds:</string>
+    
+    <string name="btnimperial">Imperial</string>
+    <string name="btnmetric">Metric</string>
+    <string name="btnbritish">British</string>
+    
+    <string name="yourbmi">Your BMI: </string>
+    <string name="category">BMI Category: </string>
+    
+    <string name="britishdesc">[1 stone = 14 pounds]</string>
+
+</resources>

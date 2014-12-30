@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.source.bmicalculator.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnMetric"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="0.4"
+            android:background="@drawable/tab_active"
+            android:textColor="#FFFFFF"
+            android:text="@string/btnmetric" 
+            android:onClick="showMetric"/>
+
+        <View 
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            />
+        <Button
+            android:id="@+id/btnImperial"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="0.4"
+            android:background="@drawable/tab_inactive"
+            android:textColor="#000000"
+            android:text="@string/btnimperial"
+            android:onClick="showImperial" />
+        
+         <View 
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            />
+        <Button
+            android:id="@+id/btnBritish"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="0.4"
+            android:background="@drawable/tab_inactive"
+            android:textColor="#000000"
+            android:text="@string/btnbritish"
+            android:onClick="showBritish" />
+    </LinearLayout>
+
+	<LinearLayout
+        android:id="@+id/fragarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp" >
+
+    </LinearLayout>
+</LinearLayout>
