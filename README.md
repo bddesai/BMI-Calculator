@@ -1,6 +1,6 @@
 BMI-Calculator
 ==============
-This Android Application checks your Body Mass Index (BMI) in two Formats:
+This Android Application checks your Body Mass Index (BMI) in three Formats:
 1) Metric system
 2) Imperial system
 3) British System 
